@@ -211,7 +211,10 @@ function openEnvelope() {
 
     // Redirect to Valentine proposal after envelope animation
     setTimeout(() => {
-        window.location.href = "valentine.html";
+        const baseMeta = document.querySelector('meta[name="base-url"]');
+        const baseUrl = baseMeta ? baseMeta.getAttribute('content') : '/';
+        const normalizedBase = baseUrl && baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+        window.location.href = `${normalizedBase}valentine.html`;
     }, 1200);
 }
 
@@ -236,7 +239,10 @@ function closeMessage() {
     // Transition to Valentine app after short delay
     setTimeout(() => {
         // Redirect to the Valentine proposal app
-        window.location.href = "valentine.html";
+        const baseMeta = document.querySelector('meta[name="base-url"]');
+        const baseUrl = baseMeta ? baseMeta.getAttribute('content') : '/';
+        const normalizedBase = baseUrl && baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+        window.location.href = `${normalizedBase}valentine.html`;
     }, 500);
 }
 
