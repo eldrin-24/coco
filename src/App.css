@@ -384,7 +384,7 @@ body {
 #root .react-app .envelope {
   position: relative;
   width: 340px;
-  height: 220px;
+  height: 250px;
   margin: 0 auto;
   perspective: 1000px;
   overflow: visible;
@@ -439,7 +439,7 @@ body {
   left: 16px;
   right: 16px;
   bottom: 20px;
-  height: 220px;
+  height: 260px;
   border-radius: 12px;
   background-color: #FFF8DC;
   border: 3px solid #FFB6C1;
@@ -489,7 +489,7 @@ body {
 }
 
 #root .react-app .envelope.open .letter {
-  transform: translateY(-55%);
+  transform: translateY(-65%);
   visibility: visible;
 }
 

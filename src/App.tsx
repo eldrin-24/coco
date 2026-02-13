@@ -14,12 +14,12 @@ export default function Page() {
   const baseUrl = import.meta.env.BASE_URL;
   const assetBase = `${window.location.origin}${baseUrl}`;
   const galleryPhotos = [
-    { id: "1", src: new URL("sol1.jpg", assetBase).toString(), alt: "" },
-    { id: "2", src: new URL("sol2.jpg", assetBase).toString(), alt: "" },
-    { id: "3", src: new URL("sol3.jpg", assetBase).toString(), alt: "" },
-    { id: "4", src: new URL("sol4.jpg", assetBase).toString(), alt: "" },
-    { id: "5", src: new URL("sol5.jpg", assetBase).toString(), alt: "" },
-    { id: "6", src: new URL("sol6.jpg", assetBase).toString(), alt: "" },
+    { id: "1", src: new URL("coc1.jpg", assetBase).toString(), alt: "" },
+    { id: "2", src: new URL("coc2.jpg", assetBase).toString(), alt: "" },
+    { id: "3", src: new URL("coc3.jpg", assetBase).toString(), alt: "" },
+    { id: "4", src: new URL("coc4.jpg", assetBase).toString(), alt: "" },
+    { id: "5", src: new URL("coc5.jpg", assetBase).toString(), alt: "" },
+    { id: "6", src: new URL("coc6.jpg", assetBase).toString(), alt: "" },
   ];
 
   const handleNoClick = () => {
@@ -115,10 +115,10 @@ export default function Page() {
                     <div className="letter-content">
                       <p className="letter-date">Feb 14, 2026</p>
                       <p className="letter-body">
-                        Happy Valentine's Baby, thank you for making my life more wonderful and meaningful.
+                        Happy Valentine's Day asawa ko, thank you for making my life a lot more special. I appreciate you a lot more than you think of... I love you big time &lt;33
                       </p>
-                      <p className="letter-sign">Forever yours,</p>
-                      <p className="letter-name">Solemn</p>
+                      <p className="letter-sign">Yours Truly,</p>
+                      <p className="letter-name">Coco</p>
                     </div>
                   </div>
                 </div>
@@ -144,10 +144,10 @@ export default function Page() {
             <div className="pixel-hearts pixel-heart-1"></div>
             <div className="pixel-hearts pixel-heart-2"></div>
             <div className="pixel-hearts pixel-heart-3"></div>
-            <div className="badge">From Solemn the cat</div>
+            <div className="badge">From Coco the cat</div>
             <img
               className="hero-gif"
-              src={`${baseUrl}sol7.png`}
+              src={`${baseUrl}coc7.png`}
               alt="Solemn"
             />
             <h1 className="title">Be My Valentine?</h1>

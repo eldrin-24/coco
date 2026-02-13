@@ -23,7 +23,7 @@ const scenes = [
         // Scene 1: Opening
         id: 0,
         dialogue: "What a beautiful sunset! Isn't it?",
-        speaker: "Solemn the cat",
+        speaker: "Coco the cat",
         buttons: [
             { text: "Where am I?", nextScene: 1 },
             { text: "Hmm!", nextScene: 1 }
@@ -35,7 +35,7 @@ const scenes = [
         // Scene 2: Cat responds
         id: 1,
         dialogue: "Uhm... You'll see.",
-        speaker: "Solemn the cat",
+        speaker: "Coco the cat",
         buttons: [
             { text: "Continue...", nextScene: 2 }
         ],
@@ -46,7 +46,7 @@ const scenes = [
         // Scene 3: Envelope appears
         id: 2,
         dialogue: "Oh look! A letter appeared! Try clicking on it.",
-        speaker: "Solemn the cat",
+        speaker: "Coco the cat",
         buttons: [],
         catExpression: "excited",
         showEnvelope: true,
@@ -55,7 +55,7 @@ const scenes = [
         // Scene 4: Envelope message
         id: 3,
         dialogue: "What does the message say?",
-        speaker: "Solemn the cat",
+        speaker: "Coco the cat",
         buttons: [
             { text: "The End", nextScene: 0 }
         ],
