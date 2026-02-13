@@ -148,7 +148,7 @@ export default function Page() {
             <img
               className="hero-gif"
               src={`${baseUrl}coc7.png`}
-              alt="Solemn"
+              alt="Coco the cat"
             />
             <h1 className="title">Be My Valentine?</h1>
             <p className="subtitle">The sunset awaits your answer...</p>
